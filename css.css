@@ -50,3 +50,32 @@ a:hover{
 a:active{
     color: royalblue;
 }
+.dropbtn{
+    background-color: bisque;
+    color: cadetblue;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: cornflowerblue;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgb(51, 0, 51);
+    z-index: 1;
+}
+.dropdown-content a:hover{
+    background-color: saddlebrown;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown:hover .dropbtn{
+    background-color: slategrey;
+}
