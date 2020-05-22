@@ -2,6 +2,7 @@
 body{
     background: rgb(255, 215, 222);
     color: rgb(32, 32, 32);
+    margin: 25px 75px 75px 75px;
 }
 .title{
     background-color: white;
@@ -30,6 +31,7 @@ ul{
     padding: 0;
     overflow: hidden;
     background-color: rgb(255, 180, 221);
+    margin-bottom: 20px;
 }
 li{
     float: left;
@@ -93,4 +95,17 @@ a:active{
 .portfoliobtt:hover{
     color: rgb(185, 3, 110);
 
+}
+.topbtn{
+    background-color: azure;
+}
+h3{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+}
+@media only screen and (max-width: 800px){
+    img{
+        max-width: 90%;
+    }
 }
