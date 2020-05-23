@@ -36,22 +36,16 @@ body{
     font-family: 'Raleway', sans-serif; 
 
 }
-ul{
+li{
     list-style-type: none;
+    font-size: 20px;
     margin: 0;
     padding: 0;
     overflow: visible;
     background-color: rgb(203, 230, 255);
     margin-bottom: 20px;
+    display: inline;
 }
-li{
-    float: left;
-}
-li a{
-    display: block;
-    padding: 8px;
-}
-
 a:link{
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
@@ -69,6 +63,11 @@ a:hover{
 a:active{
     text-decoration: none;
     color: royalblue;
+}
+iframe{
+    height: 500px;
+    width: 100%;
+
 }
 .dropbtn{
     background-color: bisque;
@@ -101,7 +100,7 @@ a:active{
 }
 .portfoliobtt{
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 20px;
     color: rgb(36, 36, 36);
 }
 .portfoliobtt:hover{
