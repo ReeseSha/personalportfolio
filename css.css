@@ -135,6 +135,14 @@ h2{
     max-width: 50%;
     margin-right: 10px;
 }
+.contacttxt{
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+    border: 1px rgb(255, 139, 158) solid;
+    font-family: 'Raleway', sans-serif; 
+    
+    margin-right: 10px;
+}
 .pcontainer{
     display: flex;
 }
@@ -212,6 +220,31 @@ h2{
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
     animation-duration: 1.5s;
+}
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit]{
+    background-color: #664caf;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]{
+    background-color: #9845a0;
+}
+.contactc{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
 }
 @-webkit-keyframes fade{
     from{opacity: .4}
